@@ -18,7 +18,7 @@ import copy
 # limit: loss at which to stop training; None means train for all epochs
 # skip: number of epochs between data output
 #####
-# returns a dictionnary of all tracked values
+# returns a dictionary of all tracked values
 # contains 'epoch', 'loss', 'params', 'time'
 #####
 def train_clipped_GD(model, data, n_epochs=100, learning_rate=0.001,limit=None,skip=100):
@@ -116,7 +116,7 @@ def train_clipped_GD(model, data, n_epochs=100, learning_rate=0.001,limit=None,s
 # limit: loss at which to stop training; None means train for all epochs
 # skip: number of epochs between data output
 #####
-# returns a dictionnary of all tracked values
+# returns a dictionary of all tracked values
 # contains 'epoch', 'loss', 'params', 'time'
 #####
 def train_MC(model, data, n_epochs=100,elr=0.1,limit=None,skip=100):
